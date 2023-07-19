@@ -1,0 +1,122 @@
+/*Hover 1*/
+.custom-hover-1{
+    position: relative;
+    padding: 5px;
+    transition:all ease-in-out 100ms;
+}
+.custom-hover-1:hover{
+    transform: scale(1.1);
+}
+.custom-hover-1::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  background : #094067;
+  left: 45%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+.custom-hover-1:hover::before {
+    width: 100%;
+    left:0;
+}
+/*Hover 2*/
+.custom-link{
+    text-decoration: none;
+    color: #ef4565;
+    position: relative;
+    padding: 5px;
+    transition:all ease-in-out 100ms;
+}
+.custom-link:hover{
+    color: #3da9fc;
+}
+.custom-link::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  background : #3da9fc;
+  left: 0%;
+  height: 2px;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.7;
+}
+.custom-link:hover::before {
+    width: 100%;
+    left:0;
+}
+/*Custom Buttons*/
+.custom-button{
+    color: #ef4565;
+    background-color: none;
+    border: 2px solid #ef4565;
+}
+.custom-button:hover{
+    color: #FFFFFE;
+    background-color: #ef4565;
+}
+/*Social Icons*/
+.custom-hover-icon{
+    transition:all ease-in-out 100ms;
+}
+.custom-hover-icon a{
+    color: #FFFFFE;
+}
+.custom-hover-icon:hover{
+    transform: scale(1.1) translateY(-10px);
+} 
+/*Replace heading text color #094067*/
+.custom-h{
+    color: #094067;
+    font-weight: 700;
+}
+.custom-lead{
+    color: #094067;
+    font-size: large;
+    font-weight: 300;
+}
+/*Replace skills bg color #094067*/
+.custom-skill{
+    background-color: #094067;
+    color: #FFFFFE;
+}
+/*Replace socials bg color #094067*/
+/*Replace socials text color #fffffe*/
+.custom-social{
+    background-color: #094067;
+    color: #FFFFFE;
+}
+/*Add Box Shadow*/
+.custom-project{
+    background-color: #094067;
+    color: #FFFFFE;
+    box-shadow: 5px 5px 1px #d8eefe, 10px 10px 0px #3da9fc;
+    transform: translate(-1px,-1px);
+    transition: all ease-in-out 300ms;
+}
+.custom-project:hover{
+    transform: translate(1px,1px);
+    background-color: #094067;
+    color: #FFFFFE;
+    box-shadow: none;
+}
+.custom-col-3{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: saturate(180%) blur(5px);
+}
+body{
+    background-color: #FFFFFE;
+    font-family: Poppins,sans-serif;
+}
+section{
+    padding: 80px 0px;
+}
+#about, #contact{
+    background-color: #d8eefe;
+}
+#contact, #project{
+    padding-bottom: 0px;
+}
