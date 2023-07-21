@@ -24,6 +24,7 @@
 }
 /*Hover 2*/
 .custom-link{
+    font-weight: 500;
     text-decoration: none;
     color: #ef4565;
     position: relative;
@@ -67,29 +68,31 @@
 }
 .custom-hover-icon:hover{
     transform: scale(1.1) translateY(-10px);
-} 
-/*Replace heading text color #094067*/
+}
+/*Custom text styles*/
 .custom-h{
     color: #094067;
     font-weight: 700;
 }
-.custom-lead{
+.custom-about-lead{
     color: #094067;
-    font-size: large;
+    font-size: medium;
     font-weight: 300;
 }
-/*Replace skills bg color #094067*/
+.custom-lead{
+    color: #094067;
+    font-size: larger;
+    font-weight: 300;
+}
+/*Custom section styles*/
 .custom-skill{
     background-color: #094067;
     color: #FFFFFE;
 }
-/*Replace socials bg color #094067*/
-/*Replace socials text color #fffffe*/
 .custom-social{
     background-color: #094067;
     color: #FFFFFE;
 }
-/*Add Box Shadow*/
 .custom-project{
     background-color: #094067;
     color: #FFFFFE;
@@ -103,8 +106,9 @@
     color: #FFFFFE;
     box-shadow: none;
 }
+/*Custom color*/
 .custom-col-3{
-    background: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: saturate(180%) blur(5px);
 }
 .custom-col-3 a{
@@ -113,6 +117,7 @@
 .custom-col-3 a:hover{
     color: #3da9fc;
 }
+/*General*/
 body{
     background-color: #FFFFFE;
     font-family: Poppins,sans-serif;
