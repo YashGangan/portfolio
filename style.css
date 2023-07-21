@@ -88,6 +88,15 @@
 .custom-skill{
     background-color: #094067;
     color: #FFFFFE;
+    box-shadow: 3px 3px 1px #d8eefe, 5px 5px 0px #3da9fc;
+    transform: translate(-1px,-1px);
+    transition: all ease-in-out 300ms;
+}
+.custom-skill:hover{
+    transform: translate(1px,1px);
+    background-color: #094067;
+    color: #FFFFFE;
+    box-shadow: none;
 }
 .custom-social{
     background-color: #094067;
